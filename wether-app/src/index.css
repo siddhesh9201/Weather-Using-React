@@ -1,0 +1,56 @@
+.weather-container {
+  background: linear-gradient(135deg, #a8e6ff, #f8f9fa); /* Soft gradient for a fresh look */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  margin: 40px auto; /* Centers the container with margin from the top */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.weather-container:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.weather-container h1 {
+  font-size: 2.2rem;
+  color: #2c3e50; /* Dark text for contrast */
+  margin-bottom: 15px;
+}
+
+.weather-container p {
+  font-size: 1.1rem;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.weather-container button {
+  background-color: #6aa7ec; /* Vibrant accent color */
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: gray;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.weather-container button:hover {
+  background-color: #357ABD; /* Slightly darker shade on hover */
+  transform: scale(1.05); /* Subtle grow effect on hover */
+}
+
+.weather-container button:active {
+  background-color: #2d6ca4; /* Darker color on click */
+}
+
+@media (prefers-color-scheme: light) {
+  .weather-container {
+    background: linear-gradient(135deg, #cdefff, #ffffff);
+  }
+}
