@@ -31,11 +31,12 @@
 .weather-container button {
   background-color: #6aa7ec; /* Vibrant accent color */
   border: none;
-  border-radius: 12px;
-  padding: 10px 20px;
-  font-size: 1rem;
+  border-radius: 16px;
+  padding: 8px 4px;
+  width: 250px;
+  font-size: 0.8rem;
   font-weight: 500;
-  color: gray;
+  color: rgb(5, 60, 119);
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }

@@ -52,7 +52,7 @@ export default function Weather() {
             {weatherData.weather[0].description}
           </h1>
           <button className="weather-container button" onClick={clear}>
-            ClEAR
+            CLEAR
           </button>
         </div>
       )}
